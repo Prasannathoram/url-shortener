@@ -106,16 +106,26 @@ url-shortener/
 
 -------------------------------------------------
 
-## (Swagger)
+## OpenAPI / Swagger Specification
 
-After running the application locally, the Swagger UI can be accessed at:
+This project includes an OpenAPI (Swagger) specification file that describes all API endpoints, request/response formats, and models.
+
+The specification file is generated automatically by FastAPI and is included in this repository as:
+
+openapi.json
+
+This file can be:
+- Viewed directly on GitHub
+- Imported into tools such as Postman, Insomnia, or Swagger Editor
+- Used by evaluators to easily test all API endpoints
+
+When running the application locally, interactive API documentation is also available at:
 
 http://127.0.0.1:8000/docs
 
-The OpenAPI (Swagger) specification is available at:
+The raw OpenAPI specification can be accessed locally at:
 
 http://127.0.0.1:8000/openapi.json
-
 
 
 
