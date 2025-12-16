@@ -106,6 +106,18 @@ url-shortener/
 
 -------------------------------------------------
 
+## (Swagger)
+
+After running the application locally, the Swagger UI can be accessed at:
+
+http://127.0.0.1:8000/docs
+
+The OpenAPI (Swagger) specification is available at:
+
+http://127.0.0.1:8000/openapi.json
+
+
+
 
 
 #### Step 1: Clone the Repository
